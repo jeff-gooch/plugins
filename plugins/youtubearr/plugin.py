@@ -2049,10 +2049,12 @@ class Plugin:
             if "=" in part:
                 part = part.split("=")[0].strip()
 
+            _part_netloc = urllib.parse.urlparse(part).netloc.lower()
+            _is_yt_url = _part_netloc == "youtube.com" or _part_netloc.endswith(".youtube.com")
             username = None
             if part.startswith("@"):
                 username = part[1:]
-            elif urllib.parse.urlparse(part).netloc.lower().endswith("youtube.com"):
+            elif _is_yt_url:
                 match = re.search(r'/@([a-zA-Z0-9_-]+)', part)
                 if match:
                     username = match.group(1)
@@ -2101,7 +2103,7 @@ class Plugin:
 
             # Extract channel ID from URL if needed
             _netloc = urllib.parse.urlparse(part).netloc.lower()
-            if _netloc.endswith("youtube.com") or _netloc.endswith("youtu.be"):
+            if _netloc == "youtube.com" or _netloc.endswith(".youtube.com") or _netloc == "youtu.be" or _netloc.endswith(".youtu.be"):
                 # Try to extract channel ID from URL formats:
                 # - /channel/UC...
                 # - /@username

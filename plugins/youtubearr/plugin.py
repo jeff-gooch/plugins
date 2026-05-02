@@ -24,7 +24,7 @@ from core.scheduling import create_or_update_periodic_task, delete_periodic_task
 
 class Plugin:
     name = "YouTubearr"
-    version = "1.17.5"
+    version = "1.17.6"
     description = "Zero-dependency YouTube livestream plugin with automatic monitoring and configurable numbering"
     author = "Jeff Gooch"
     help_url = "https://github.com/jeff-gooch/youtubearr"
@@ -2052,7 +2052,7 @@ class Plugin:
             username = None
             if part.startswith("@"):
                 username = part[1:]
-            elif "youtube.com" in part:
+            elif urllib.parse.urlparse(part).netloc.lower().endswith("youtube.com"):
                 match = re.search(r'/@([a-zA-Z0-9_-]+)', part)
                 if match:
                     username = match.group(1)
@@ -2100,7 +2100,8 @@ class Plugin:
                 continue
 
             # Extract channel ID from URL if needed
-            if "youtube.com" in part or "youtu.be" in part:
+            _netloc = urllib.parse.urlparse(part).netloc.lower()
+            if _netloc.endswith("youtube.com") or _netloc.endswith("youtu.be"):
                 # Try to extract channel ID from URL formats:
                 # - /channel/UC...
                 # - /@username

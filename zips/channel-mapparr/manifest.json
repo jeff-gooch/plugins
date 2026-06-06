@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-06-06T03:07:05Z",
+  "manifest": {
+    "slug": "channel-mapparr",
+    "name": "Channel Mapparr",
+    "description": "Standardizes broadcast (OTA) and premium/cable channel names using network data and channel lists. Supports M3U stream import, category organization, and fuzzy matching across 42K+ channels in 11 countries.",
+    "author": "PiratesIRC",
+    "license": "MIT",
+    "repo_url": "https://github.com/PiratesIRC/Dispatcharr-Channel-Maparr-Plugin",
+    "discord_thread": "https://discord.com/channels/1340492560220684331/1422963882548265110",
+    "registry_url": "https://github.com/jeff-gooch/plugins",
+    "registry_name": "jeff-gooch/plugins",
+    "last_updated": "2026-05-23T13:06:41-04:00",
+    "latest": {
+      "version": "1.26.1430910",
+      "commit_sha": "309559e7795e3c0447f90067e0c011d8c1eb9d45",
+      "commit_sha_short": "309559e",
+      "build_timestamp": "2026-06-06T03:07:02Z",
+      "last_updated": "2026-05-23T13:06:41-04:00",
+      "checksum_md5": "3efda22a0138f0adbe4f8ba7539748f0",
+      "checksum_sha256": "34dda6b65803903055f3fb85791edf13a4e7dd513eb4d635a084273d864c463f",
+      "min_dispatcharr_version": "v0.20.0",
+      "latest_url": "zips/channel-mapparr/channel-mapparr-latest.zip",
+      "url": "zips/channel-mapparr/channel-mapparr-1.26.1430910.zip",
+      "size": 528
+    },
+    "versions": [
+      {
+        "version": "1.26.1430910",
+        "commit_sha": "309559e7795e3c0447f90067e0c011d8c1eb9d45",
+        "commit_sha_short": "309559e",
+        "build_timestamp": "2026-06-06T03:07:02Z",
+        "last_updated": "2026-05-23T13:06:41-04:00",
+        "checksum_md5": "3efda22a0138f0adbe4f8ba7539748f0",
+        "checksum_sha256": "34dda6b65803903055f3fb85791edf13a4e7dd513eb4d635a084273d864c463f",
+        "min_dispatcharr_version": "v0.20.0",
+        "url": "zips/channel-mapparr/channel-mapparr-1.26.1430910.zip",
+        "size": 528
+      }
+    ]
+  }
+}

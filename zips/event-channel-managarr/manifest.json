@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-06-06T03:07:05Z",
+  "manifest": {
+    "slug": "event-channel-managarr",
+    "name": "Event Channel Managarr",
+    "description": "Automates channel visibility by hiding channels without events and showing those with events, based on EPG data and channel names. Optionally manages dummy EPG for channels without real EPG.",
+    "author": "PiratesIRC",
+    "license": "MIT",
+    "repo_url": "https://github.com/PiratesIRC/Dispatcharr-Event-Channel-Managarr-Plugin",
+    "registry_url": "https://github.com/jeff-gooch/plugins",
+    "registry_name": "jeff-gooch/plugins",
+    "last_updated": "2026-05-20T07:52:54-04:00",
+    "latest": {
+      "version": "1.26.1401103",
+      "commit_sha": "618a835b69185ab601e3cce394cb4d9bcc0e5258",
+      "commit_sha_short": "618a835",
+      "build_timestamp": "2026-06-06T03:07:03Z",
+      "last_updated": "2026-05-20T07:52:54-04:00",
+      "checksum_md5": "60abfc953e039bff8b911204b5f0a0fe",
+      "checksum_sha256": "22642e0db4839f5e95042aaa68b43d44b697be0a87edfad0a8034d16ae1c1ffd",
+      "min_dispatcharr_version": "v0.20.0",
+      "latest_url": "zips/event-channel-managarr/event-channel-managarr-latest.zip",
+      "url": "zips/event-channel-managarr/event-channel-managarr-1.26.1401103.zip",
+      "size": 184
+    },
+    "versions": [
+      {
+        "version": "1.26.1401103",
+        "commit_sha": "618a835b69185ab601e3cce394cb4d9bcc0e5258",
+        "commit_sha_short": "618a835",
+        "build_timestamp": "2026-06-06T03:07:03Z",
+        "last_updated": "2026-05-20T07:52:54-04:00",
+        "checksum_md5": "60abfc953e039bff8b911204b5f0a0fe",
+        "checksum_sha256": "22642e0db4839f5e95042aaa68b43d44b697be0a87edfad0a8034d16ae1c1ffd",
+        "min_dispatcharr_version": "v0.20.0",
+        "url": "zips/event-channel-managarr/event-channel-managarr-1.26.1401103.zip",
+        "size": 184
+      }
+    ]
+  }
+}

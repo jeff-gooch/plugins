@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-06-06T03:07:05Z",
+  "manifest": {
+    "slug": "tickarr",
+    "name": "Tickarr",
+    "description": "Dynamic text overlays for IPTV channels - SiriusXM Now Playing, Sports Ticker, Custom Text",
+    "author": "jstevenscl",
+    "license": "MIT",
+    "source_type": "external",
+    "source_url": "https://github.com/jstevenscl/tickarr/releases/download/v{version}/tickarr-{version}.zip",
+    "repo_url": "https://github.com/jstevenscl/tickarr",
+    "registry_url": "https://github.com/jeff-gooch/plugins",
+    "registry_name": "jeff-gooch/plugins",
+    "last_updated": "2026-06-06T03:07:03Z",
+    "latest": {
+      "version": "0.1.01",
+      "build_timestamp": "2026-06-06T03:07:03Z",
+      "last_updated": "2026-06-06T03:07:03Z",
+      "checksum_md5": "c3e3ff46d9eacd66bad4aaaa3c954103",
+      "checksum_sha256": "c2d0fa4f26560b571fd8014d06b230ca6fff5321e79207bcce07b19c22793e34",
+      "source_url": "https://github.com/jstevenscl/tickarr/releases/download/v0.1.01/tickarr-0.1.01.zip",
+      "latest_url": "zips/tickarr/tickarr-latest.zip",
+      "url": "zips/tickarr/tickarr-0.1.01.zip",
+      "size": 22
+    },
+    "versions": [
+      {
+        "version": "0.1.01",
+        "build_timestamp": "2026-06-06T03:07:03Z",
+        "last_updated": "2026-06-06T03:07:03Z",
+        "checksum_md5": "c3e3ff46d9eacd66bad4aaaa3c954103",
+        "checksum_sha256": "c2d0fa4f26560b571fd8014d06b230ca6fff5321e79207bcce07b19c22793e34",
+        "source_url": "https://github.com/jstevenscl/tickarr/releases/download/v0.1.01/tickarr-0.1.01.zip",
+        "url": "zips/tickarr/tickarr-0.1.01.zip",
+        "size": 22
+      }
+    ]
+  }
+}

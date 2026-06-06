@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-06-06T03:07:05Z",
+  "manifest": {
+    "slug": "dispatcharr-exporter",
+    "name": "Dispatcharr Exporter",
+    "description": "Expose Dispatcharr metrics in Prometheus exporter-compatible format for monitoring",
+    "author": "sethwv",
+    "license": "MIT",
+    "repo_url": "https://github.com/swvn-dispatch/dispatcharr-exporter",
+    "discord_thread": "https://discord.com/channels/1340492560220684331/1451260201775923421",
+    "registry_url": "https://github.com/jeff-gooch/plugins",
+    "registry_name": "jeff-gooch/plugins",
+    "last_updated": "2026-05-10T14:26:32-04:00",
+    "latest": {
+      "version": "3.0.1",
+      "commit_sha": "b70abd6df9cd520bcc28ad7fced085be135897a9",
+      "commit_sha_short": "b70abd6",
+      "build_timestamp": "2026-06-06T03:07:02Z",
+      "last_updated": "2026-05-10T14:26:32-04:00",
+      "checksum_md5": "9e85a178ebe84f2c4cad7129434c0d1d",
+      "checksum_sha256": "f8d209e426889fe2380dbb295a97f756de3192d1b4fec66eadbb32cb7024bbc8",
+      "min_dispatcharr_version": "v0.22.0",
+      "latest_url": "zips/dispatcharr-exporter/dispatcharr-exporter-latest.zip",
+      "url": "zips/dispatcharr-exporter/dispatcharr-exporter-3.0.1.zip",
+      "size": 140
+    },
+    "versions": [
+      {
+        "version": "3.0.1",
+        "commit_sha": "b70abd6df9cd520bcc28ad7fced085be135897a9",
+        "commit_sha_short": "b70abd6",
+        "build_timestamp": "2026-06-06T03:07:02Z",
+        "last_updated": "2026-05-10T14:26:32-04:00",
+        "checksum_md5": "9e85a178ebe84f2c4cad7129434c0d1d",
+        "checksum_sha256": "f8d209e426889fe2380dbb295a97f756de3192d1b4fec66eadbb32cb7024bbc8",
+        "min_dispatcharr_version": "v0.22.0",
+        "url": "zips/dispatcharr-exporter/dispatcharr-exporter-3.0.1.zip",
+        "size": 140
+      }
+    ]
+  }
+}
